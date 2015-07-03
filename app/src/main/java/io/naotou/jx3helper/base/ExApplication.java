@@ -12,11 +12,11 @@ import com.facebook.drawee.backends.pipeline.Fresco;
  * @date 2015/6/30
  * @2015 AngelCrunch 天使汇 http://www.angelcrunch.com/
  */
-public class BaseApplication extends Application {
+public class ExApplication extends Application {
 
     public static Context mContext;
 
-    public static Context getmContext() {
+    public static Context getContext() {
         return mContext;
     }
 

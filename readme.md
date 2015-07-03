@@ -8,10 +8,11 @@
 
 ## 框架 ##
 
-- 网络请求: Gson
-- 注入框架: butterKnife
-- 设计规范: Matrial Design
-- 图片加载:  [fresco](http://fresco-cn.org/)
+- 网络请求: [Gson](https://github.com/google/gson)
+- 注入框架: [ButterKnife](https://github.com/JakeWharton/butterknife)
+- 设计规范: [Matrial Design](https://www.google.com/design/spec/material-design/introduction.html)
+- 图片加载:  [Fresco](http://fresco-cn.org/)
+- 事件回调: [EventBus](https://github.com/greenrobot/EventBus/blob/master/HOWTO.md)
 
 ## 目的 ##
 - 提升自己的编码能力.
