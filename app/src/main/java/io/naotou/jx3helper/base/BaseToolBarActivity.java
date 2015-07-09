@@ -51,6 +51,7 @@ public abstract class BaseToolBarActivity extends AppCompatActivity {
 
     public void OnToolBarClick() {
         //让子类重写这个方法.
+        //测试提交.
     }
 
 }
