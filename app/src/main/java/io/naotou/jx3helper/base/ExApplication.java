@@ -3,6 +3,7 @@ package io.naotou.jx3helper.base;
 import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
+import android.support.multidex.MultiDex;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 
@@ -23,6 +24,11 @@ public class ExApplication extends Application {
     public static Resources getmResources() {
 
         return mContext.getResources();
+    }
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
     }
     @Override
     public void onCreate() {
