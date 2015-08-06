@@ -107,7 +107,7 @@ public class AppInfoUtil {
 	}
 
 	/**
-	 * ��ȡӦ�õ�һ�ΰ�װʱ��
+	 * 获取应用第一次安装时间
 	 *
 	 * @return
 	 */
@@ -119,7 +119,7 @@ public class AppInfoUtil {
 
 			Context ctx = ExApplication.getContext();
 			PackageInfo packageInfo = ctx.getPackageManager().getPackageInfo(ctx.getPackageName(), 0);
-			firstInstallTime = packageInfo.firstInstallTime;// Ӧ�õ�һ�ΰ�װ��ʱ��
+			firstInstallTime = packageInfo.firstInstallTime;// 应用第一次安装的时间
 		} catch (NameNotFoundException e) {
 			
 			if(LogMgr.isDebug())

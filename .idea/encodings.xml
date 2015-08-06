@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/io/naotou/jx3helper/util/AppInfoUtil.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/io/naotou/jx3helper/util/DensityUtil.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/io/naotou/jx3helper/util/LogMgr.java" charset="GBK" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/io/naotou/jx3helper/util/AppInfoUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/io/naotou/jx3helper/util/DensityUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/io/naotou/jx3helper/util/LogMgr.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
