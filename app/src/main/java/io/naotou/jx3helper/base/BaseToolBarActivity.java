@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import io.naotou.jx3helper.R;
+import io.naotou.jx3helper.util.ActivityManager;
 
 
 /**
@@ -47,11 +48,22 @@ public abstract class BaseToolBarActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 21) {
             mAppbar.setElevation(8f);
         }
+
+
+        ActivityManager.addActivity(this);
+
     }
+
+
 
     public void OnToolBarClick() {
         //让子类重写这个方法.
         //测试提交.
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        ActivityManager.removeActivity(this);
+    }
 }
